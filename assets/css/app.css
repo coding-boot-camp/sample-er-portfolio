@@ -1,0 +1,143 @@
+html, body {
+    font-family: 'Quicksand'
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    margin-bottom: 100px;
+}
+
+.logo {
+    height: 60px;
+    width: 60px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subtitle {
+    text-align: center;
+    font-weight: 200;
+}
+
+.sub-subtitle {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.boy {
+    display: block;
+    height: 200px;
+    margin: 50px auto;
+}
+
+.hero {
+    display: block;
+    max-height: 300px;
+    margin: 120px auto;
+    margin-bottom: 0;
+}
+
+.container-color {
+    padding: 100px 0 200px 0;
+    background-color: #0984e3;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro {
+    color: #fff
+}
+
+.card-title {
+    margin-top: 50px;
+    color: #0984e3;
+    text-align: center;
+}
+
+.card-title:first-child {
+    margin-top: 0;
+}
+
+.card-text {
+    line-height: 2;
+}
+
+.card-deck {
+    transform: translateY(-100px);
+    text-align: center;
+}
+
+.card {
+
+    border-radius: 15px;
+    box-shadow:0 8px 17px 2px rgba(152,152,152,0.14),0 3px 14px 2px rgba(152,152,152,0.12),0 5px 5px -3px rgba(152,152,152,0.2);
+
+}
+
+
+.card-icon{
+    color: #0984e3;
+    font-size: 50px;
+}
+
+.row-project {
+    margin-top: 30px;
+}
+
+.card-project {
+    min-width: 329px;
+}
+
+.start-project-card {
+    min-height: 200px;
+    transform: translateY(-100px);
+}
+
+.card-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 45px;
+    margin-right: 40px;
+}
+
+.contact-me-subtitle {
+    margin-bottom: 30px;
+}
+
+.card-social-icon {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+
+.card-social-icon:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.profile-card {
+    min-height: 200px;
+}
