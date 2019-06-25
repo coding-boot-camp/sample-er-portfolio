@@ -1,5 +1,5 @@
 html, body {
-    font-family: 'Quicksand';
+    font-family: 'Lato', sans-serif;
     background-color:#fff;
 }
 
@@ -33,14 +33,16 @@ footer {
 
 .title {
     text-align: center;
-    font-weight: 500;
+    font-size: 3rem;
+    font-weight: 300;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
 .subtitle {
     text-align: center;
-    font-weight: 200;
+    font-size: 1.8rem;
+    font-weight: 300;
 }
 
 .sub-subtitle {
@@ -52,13 +54,13 @@ footer {
 .boy {
     display: block;
     height: 200px;
-    margin: 50px auto;
+    margin: 50px auto 0 auto;
 }
 
 .hero {
     display: block;
     max-height: 300px;
-    margin: 120px auto;
+    margin: 70px auto;
     margin-bottom: 0;
 }
 
@@ -70,6 +72,10 @@ footer {
     text-align: center;
     flex-direction: column;
     align-items: center;
+}
+
+.container-gray {
+    padding: 50px 30px;
 }
 
 .intro {
