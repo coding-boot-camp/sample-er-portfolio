@@ -5,3 +5,12 @@ $(document).ready(function () {
         });
     }, { offset: 'bottom-in-view' });
 });
+
+
+
+var arr = ['apples', 'oranges', 'raspberries'];
+
+var newArr = [...arr, 'lemons'];
+
+console.log(arr);
+console.log(newArr);

@@ -1,11 +1,25 @@
 html, body {
-    font-family: 'Quicksand'
+    font-family: 'Quicksand';
+    background-color:#fff;
 }
 
 footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.btn-primary {
+    background-color: #0984e3;
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+
+.footnote {
+    color: #999;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .navbar {
@@ -49,7 +63,7 @@ footer {
 }
 
 .container-color {
-    padding: 100px 0 200px 0;
+    padding: 100px 30px 200px 30px;
     background-color: #0984e3;
     display: flex;
     justify-content: center;
@@ -73,25 +87,24 @@ footer {
 }
 
 .card-text {
+    text-align: center;
     line-height: 2;
 }
 
-.card-deck {
+.skills .profile-card {
     transform: translateY(-100px);
     text-align: center;
 }
 
-.card {
-
-    border-radius: 15px;
-    box-shadow:0 8px 17px 2px rgba(152,152,152,0.14),0 3px 14px 2px rgba(152,152,152,0.12),0 5px 5px -3px rgba(152,152,152,0.2);
-
-}
-
-
 .card-icon{
     color: #0984e3;
     font-size: 50px;
+    text-align: center;
+}
+
+.card-image{
+    display: block;
+    margin: 20px auto;
 }
 
 .row-project {
@@ -125,190 +138,32 @@ footer {
 }
 
 .card-social-icon {
-    color: #fff;
+    color: #000;
     font-size: 16px;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
 }
-
-
 .card-social-icon:hover {
-    color: #fff;
+    color: #0984e3;
     text-decoration: none;
 }
 
 .profile-card {
-    min-height: 200px;
+    background-color: #fff;
+    min-height: 400px;
+    width: 300px;
+    padding: 30px;
+    margin: 15px;
+    border: 0;
+    border-radius: 12px;
+    box-shadow: 0 0 30px -5px hsla(0,0%,20.8%,.45);
+
 }
 
 .skill-container{
-    padding: 30px;
+    padding: 100px 30px;
+    background-color: #eee;
 }
 
-.skill-bar {
-    position: relative;
-    height: 300px;
-    width: 20px;
-    background: #fff;
-    border-radius: 3px;
-    margin: 0 auto; }
-  
-  .skill-bar-title {
-    margin: 10px auto; }
-  
-  .grow-bar {
-    position: absolute;
-    bottom: 0;
-    height: 10px;
-    width: 20px;
-    background: -webkit-gradient(linear, left bottom, left top, from(#ff4757), color-stop(70%, #56b8e6));
-    background: linear-gradient(0deg, #ff4757 0%, #56b8e6 70%);
-    -webkit-animation: linear 3s forwards;
-    animation: linear 3s forwards;
-    -webkit-animation-iteration-count: 1;
-    animation-iteration-count: 1; }
-  
-  .html {
-    -webkit-animation-name: grow-html;
-    animation-name: grow-html; }
-  
-  .css {
-    -webkit-animation-name: grow-css;
-    animation-name: grow-css; }
-  
-  .js {
-    -webkit-animation-name: grow-js;
-    animation-name: grow-js; }
-  
-  .sass {
-    -webkit-animation-name: grow-sass;
-    animation-name: grow-sass; }
-  
-  .npm {
-    -webkit-animation-name: grow-npm;
-    animation-name: grow-npm; }
-  
-  .node {
-    -webkit-animation-name: grow-node;
-    animation-name: grow-node; }
-  
-  .python {
-    -webkit-animation-name: grow-python;
-    animation-name: grow-python; }
-  
-  .ng {
-    -webkit-animation-name: grow-ng;
-    animation-name: grow-ng; }
-  
-  .react {
-    -webkit-animation-name: grow-react;
-    animation-name: grow-react; }
-  
-  .gulp {
-    -webkit-animation-name: grow-gulp;
-    animation-name: grow-gulp; }
-  
-  .git {
-    -webkit-animation-name: grow-git;
-    animation-name: grow-git; }
-  
-  .db {
-    -webkit-animation-name: grow-db;
-    animation-name: grow-db; }
-  
-  @-webkit-keyframes grow-html {
-    100% {
-      height: 100%; } }
-  
-  @keyframes grow-html {
-    100% {
-      height: 100%; } }
-  
-  @-webkit-keyframes grow-css {
-    100% {
-      height: 95%; } }
-  
-  @keyframes grow-css {
-    100% {
-      height: 95%; } }
-  
-  @-webkit-keyframes grow-js {
-    100% {
-      height: 80%; } }
-  
-  @keyframes grow-js {
-    100% {
-      height: 80%; } }
-  
-  @-webkit-keyframes grow-sass {
-    100% {
-      height: 80%; } }
-  
-  @keyframes grow-sass {
-    100% {
-      height: 80%; } }
-  
-  @-webkit-keyframes grow-npm {
-    100% {
-      height: 95%; } }
-  
-  @keyframes grow-npm {
-    100% {
-      height: 95%; } }
-  
-  @-webkit-keyframes grow-node {
-    100% {
-      height: 75%; } }
-  
-  @keyframes grow-node {
-    100% {
-      height: 75%; } }
-  
-  @-webkit-keyframes grow-python {
-    100% {
-      height: 45%; } }
-  
-  @keyframes grow-python {
-    100% {
-      height: 45%; } }
-  
-  @-webkit-keyframes grow-ng {
-    100% {
-      height: 20%; } }
-  
-  @keyframes grow-ng {
-    100% {
-      height: 20%; } }
-  
-  @-webkit-keyframes grow-react {
-    100% {
-      height: 60%; } }
-  
-  @keyframes grow-react {
-    100% {
-      height: 60%; } }
-  
-  @-webkit-keyframes grow-gulp {
-    100% {
-      height: 30%; } }
-  
-  @keyframes grow-gulp {
-    100% {
-      height: 30%; } }
-  
-  @-webkit-keyframes grow-git {
-    100% {
-      height: 95%; } }
-  
-  @keyframes grow-git {
-    100% {
-      height: 95%; } }
-  
-  @-webkit-keyframes grow-db {
-    100% {
-      height: 80%; } }
-  
-  @keyframes grow-db {
-    100% {
-      height: 80%; } }
+.skills {
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
