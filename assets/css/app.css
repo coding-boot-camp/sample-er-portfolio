@@ -173,3 +173,5 @@ footer {
     display: flex;
     align-items: space-between;
     justify-content: center;
+    flex-wrap: wrap;
+}
