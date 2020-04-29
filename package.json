@@ -1,13 +1,25 @@
 {
-  "name": "portfolio",
+  "name": "alecdown",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Contributors * @acd37 * Kelsey Down",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "rellax": "^1.12.1",
+    "typeit": "^7.0.3"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acd37/alecdown.git"
+  },
+  "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acd37/alecdown/issues"
+  },
+  "homepage": "https://github.com/acd37/alecdown#readme"
 }

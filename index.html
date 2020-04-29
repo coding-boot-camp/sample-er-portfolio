@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113356087-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -38,7 +39,7 @@
 
     <section class="container">
         <h1 class="title">Software Engineer, Web Developer & Teacher</h1>
-        <h3 class="subtitle">I write code and build beautifully simple applications.</h3>
+        <h3 class="subtitle" id="element"></h3>
         <img src="assets/images/boy.png" class="boy" alt="boy image" />
         <img src="assets/images/hero.png" class="hero img-fluid" alt="hero image" />
     </section>
@@ -52,17 +53,13 @@
                 applications
                 built on
                 JavaScript technologies. </h3>
-            <!-- <h4 class="intro sub-subtitle"></strong>Open to new opportunities.</h4> -->
-
         </div>
     </section>
 
     <section class="container skills">
         <div class="profile-card">
 
-            <p class="card-icon">
-                <i class="fas fa-code"></i>
-            </p>
+            <img src="./assets/images/signs.png" alt="code signs" height="75" width="75" />
 
             <h5 class="card-title">Software Engineer</h5>
             <p class="card-text">Building practical and secure server-side applications to meet your business
@@ -71,7 +68,7 @@
                 Technologies I use:
             </h5>
             <p class="card-text">
-                NodeJs, ExpressJS, MySQL & MongoDB, Java, Spring
+                Node.js, Express.js, MySQL/PostgreSQL/MSSQL & MongoDB, Java, Spring, Python, Flask
                 <h5 class="card-title">
                     Dev Tools:
                 </h5>
@@ -86,10 +83,9 @@
                 </p>
 
         </div>
-        <div class="profile-card">
-            <p class="card-icon">
-                <i class="fas fa-tv"></i>
-            </p>
+        <div class="profile-card" data-speed="2">
+            <img src="./assets/images/earth-grid.png" alt="internet" height="75" width="75" />
+
             <h5 class="card-title">Web Developer</h5>
             <p class="card-text">
                 I like to build projects from scratch, and I can make your designs a reality.
@@ -116,9 +112,8 @@
 
 
         <div class="profile-card">
-            <p class="card-icon">
-                <i class="fas fa-graduation-cap"></i>
-            </p>
+            <img src="./assets/images/education.png" alt="teacher" height="75" width="75" />
+
             <h5 class="card-title">Teacher</h5>
             <p class="card-text">
                 I enjoy working with students, helping them discover their own "aha" moments.
@@ -136,10 +131,10 @@
                 </h5>
                 <p class="card-text">
 
-                    6 years teaching experience<br />
-                    4 bootcamp cohorts<br />
-                    200+ students<br />
-                    1000s of mentor sessions<br />
+                    8 years teaching experience<br />
+                    5 bootcamp cohorts<br />
+                    230+ students<br />
+                    1000s of mentoring sessions<br />
                 </p>
         </div>
     </section>
@@ -214,70 +209,84 @@
         <div class="row row-project">
 
             <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
+                <div class="project-card">
                     <h5 class="card-title">AvocadoToast</h5>
                     <p class="card-text">Clean, easy month to month budgeting.</p>
                     <img src="./assets/images/avocado.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="https://acd37-avocado-toast.herokuapp.com/" target="_blank">See
-                        it Live</a>
-                    <a class="btn btn-primary" href="https://github.com/acd37/avocado-toast" target="_blank">View
-                        Code</a>
-                </div>
-            </div>
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://acd37-avocado-toast.herokuapp.com/" target="_blank">See
+                            it Live</a>
+                        <a class="btn btn-primary" href="https://github.com/acd37/avocado-toast" target="_blank">View
+                            Code</a>
+                    </div>
 
-
-
-
-            <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
-                    <h5 class="card-title">The Local | Tempe, AZ</h5>
-                    <p class="card-text">Apartment complex website & portal</p>
-                    <img src="./assets/images/city.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="https://www.thelocaltempe.com/" target="_blank">See it Live</a>
-                    <button class="btn btn-primary disabled">View Code</button>
-                    <p class="footnote">Proprietary code unavailable.</p>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
+                <div class="project-card">
+                    <h5 class="card-title">Squad</h5>
+                    <p class="card-text">Goal setting and management application.</p>
+                    <img src="./assets/images/goal.png" height="128" alt="city" class="card-image" />
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://squad-production.herokuapp.com/" target="_blank">See it
+                            Live</a>
+                        <a class="btn btn-primary" href="https://github.com/acd37/squad" target="_blank">View
+                            Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="project-card">
                     <h5 class="card-title">Peachflame</h5>
                     <p class="card-text">Editorial business website and client/invoice tracking system</p>
                     <img src="./assets/images/flame.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="https://peachflame.co/" target="_blank">See it Live</a>
-                    <a class="btn btn-primary" href="https://github.com/acd37/peachflame" target="_blank">View Code</a>
 
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://peachflame.co/" target="_blank">See it Live</a>
+                        <a class="btn btn-primary" href="https://github.com/acd37/peachflame" target="_blank">View
+                            Code</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
+                <div class="project-card">
                     <h5 class="card-title">Socializr</h5>
                     <p class="card-text">Social network based on profiles and book interests.</p>
                     <img src="./assets/images/profile.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="https://acd37-socializr.herokuapp.com/" target="_blank">See it
-                        Live</a>
-                    <a class="btn btn-primary" href="https://github.com/acd37/socializr" target="_blank">View Code</a>
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://acd37-socializr.herokuapp.com/" target="_blank">See it
+                            Live</a>
+                        <a class="btn btn-primary" href="https://github.com/acd37/socializr" target="_blank">View
+                            Code</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
-                    <h5 class="card-title">AMChatter</h5>
-                    <p class="card-text">AMChatter is a lightweight chat application. </p>
-                    <img src="./assets/images/comment.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="http://amchatter.herokuapp.com/" target="_blank">See it
-                        Live</a>
-                    <a class="btn btn-primary" href="https://github.com/acd37/chatrr" target="_blank">View Code</a>
+                <div class="project-card">
+                    <h5 class="card-title">ScrumBot</h5>
+                    <p class="card-text">AWS Lambda providing random team-member to start daily stand-up meeting</p>
+                    <img src="./assets/images/robot.png" height="128" alt="city" class="card-image" />
+
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://github.com/acd37/scrumbot" target="_blank">View
+                            Code</a>
+                    </div>
                 </div>
             </div>
 
             <div class="col-md-4 col-sm-6">
-                <div class="profile-card">
+                <div class="project-card">
                     <h5 class="card-title">StudentSRM</h5>
                     <p class="card-text">Lightweight CRM for managing student data and experience.</p>
                     <img src="./assets/images/students-cap.png" alt="city" class="card-image" />
-                    <a class="btn btn-primary" href="https://srm-sandbox.herokuapp.com/" target="_blank">See it
-                        Live</a>
-                    <a class="btn btn-primary" href="https://github.com/acd37/srm-sandbox" target="_blank">View Code</a>
+                    <div class="link-container">
+                        <a class="btn btn-primary" href="https://srm-sandbox.herokuapp.com/" target="_blank">See it
+                            Live</a>
+                        <a class="btn btn-primary" href="https://github.com/acd37/srm-sandbox" target="_blank">View
+                            Code</a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
@@ -323,9 +332,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-
-    <script src="assets/js/waypoints.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typeit@7.0.3/dist/typeit.min.js"></script>
     <script src="assets/js/app.js"></script>
+
 </body>
 
 </html>

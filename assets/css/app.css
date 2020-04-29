@@ -1,177 +1,199 @@
-html, body {
-    font-family: 'Lato', sans-serif;
-    background-color:#fff;
+html,
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #fff;
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-primary {
-    background-color: #0984e3;
-    border-radius: 40px;
-    padding: 5px 20px;
+  background-color: #0984e3;
+  border-radius: 0px;
+  padding: 5px 30px;
+  box-shadow: 0 0 30px -5px hsla(0, 0%, 20.8%, 0.45);
 }
 
 .footnote {
-    color: #999;
-    font-size: 0.8rem;
-    text-align: center;
-    margin-top: 10px;
+  color: #999;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 10px;
 }
 
 .navbar {
-    margin-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .logo {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .title {
-    text-align: center;
-    font-size: 3rem;
-    font-weight: 300;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .subtitle {
-    text-align: center;
-    font-size: 1.8rem;
-    font-weight: 300;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 300;
 }
 
 .sub-subtitle {
-    margin-top: 30px;
-    text-align: center;
-    font-weight: 400;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: 400;
 }
 
 .boy {
-    display: block;
-    height: 200px;
-    margin: 50px auto 0 auto;
+  display: block;
+  height: 200px;
+  margin: 50px auto 0 auto;
 }
 
 .hero {
-    display: block;
-    max-height: 300px;
-    margin: 70px auto;
-    margin-bottom: 0;
+  display: block;
+  max-height: 300px;
+  margin: 70px auto;
+  margin-bottom: 0;
 }
 
 .container-color {
-    padding: 100px 30px 200px 30px;
-    background-color: #0984e3;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+  padding: 100px 30px 200px 30px;
+  background-color: #0984e3;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .container-gray {
-    padding: 50px 30px;
+  padding: 50px 30px;
 }
 
 .intro {
-    color: #fff
+  color: #fff;
 }
 
 .card-title {
-    margin-top: 50px;
-    color: #0984e3;
-    text-align: center;
+  margin-top: 50px;
+  color: #0984e3;
+  text-align: center;
 }
 
 .card-title:first-child {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .card-text {
-    text-align: center;
-    line-height: 2;
+  text-align: center;
+  line-height: 2;
 }
 
 .skills .profile-card {
-    transform: translateY(-100px);
-    text-align: center;
+  transform: translateY(-100px);
+  text-align: center;
 }
 
-.card-icon{
-    color: #0984e3;
-    font-size: 50px;
-    text-align: center;
+.card-icon {
+  color: #0984e3;
+  font-size: 50px;
+  text-align: center;
 }
 
-.card-image{
-    display: block;
-    margin: 20px auto;
+.card-image {
+  display: block;
+  margin: 20px auto;
 }
 
 .row-project {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .card-project {
-    min-width: 329px;
+  min-width: 329px;
 }
 
 .start-project-card {
-    min-height: 200px;
-    transform: translateY(-100px);
+  min-height: 200px;
+  transform: translateY(-100px);
 }
 
-.card-flex{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+.card-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .social-icon {
-    color: #fff;
-    font-size: 36px;
-    margin-right: 40px;
+  color: #fff;
+  font-size: 36px;
+  margin-right: 40px;
 }
 
 .contact-me-subtitle {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .card-social-icon {
-    color: #000;
-    font-size: 16px;
+  color: #000;
+  font-size: 16px;
 }
 .card-social-icon:hover {
-    color: #0984e3;
-    text-decoration: none;
+  color: #0984e3;
+  text-decoration: none;
 }
 
 .profile-card {
-    background-color: #fff;
-    min-height: 400px;
-    width: 300px;
-    padding: 30px;
-    margin: 15px;
-    border: 0;
-    border-radius: 12px;
-    box-shadow: 0 0 30px -5px hsla(0,0%,20.8%,.45);
-
+  background-color: #fff;
+  min-height: 400px;
+  width: 350px;
+  padding: 30px;
+  margin: 10px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 0 30px -5px hsla(0, 0%, 20.8%, 0.45);
 }
 
-.skill-container{
-    padding: 100px 30px;
-    background-color: #eee;
+.project-card {
+  background-color: #fff;
+  min-height: 400px;
+  width: 350px;
+  padding: 20px;
+  margin: 10px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: 0 0 30px -5px hsla(0, 0%, 20.8%, 0.45);
+}
+
+.project-card:hover {
+  transition-duration: 0.3s;
+  transform: scale(1.03);
+}
+
+.skill-container {
+  padding: 100px 30px;
+  background-color: #eee;
 }
 
 .skills {
-    display: flex;
-    align-items: space-between;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-around;
 }
