@@ -5,40 +5,34 @@ body {
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  text-align: center;
 }
 
 .btn-primary {
-  background-color: #0984e3;
+  background-color: #bf7fff;
+  border-color: #bf7fff;
   border-radius: 0px;
   padding: 5px 30px;
   box-shadow: 0 0 30px -5px hsla(0, 0%, 20.8%, 0.45);
 }
 
-.footnote {
-  color: #999;
-  font-size: 0.8rem;
-  text-align: center;
-  margin-top: 10px;
+.btn-primary:hover {
+  background-color: #9865cc;
+  border-color: #9865cc;
 }
 
-.navbar {
-  margin-bottom: 100px;
+.btn-primary:focus {
+  background-color: #9865cc;
+  border-color: #9865cc;
 }
 
-.logo {
-  height: 60px;
-  width: 60px;
+.btn-primary:active {
+  background-color: #9865cc !important;
+  border-color: #9865cc !important;
 }
 
 .title {
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 300;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 50px;
 }
 
 .subtitle {
@@ -47,28 +41,16 @@ footer {
   font-weight: 300;
 }
 
-.sub-subtitle {
-  margin-top: 30px;
+.footnote {
+  color: #999;
+  font-size: 0.8rem;
   text-align: center;
-  font-weight: 400;
-}
-
-.boy {
-  display: block;
-  height: 200px;
-  margin: 50px auto 0 auto;
-}
-
-.hero {
-  display: block;
-  max-height: 300px;
-  margin: 70px auto;
-  margin-bottom: 0;
 }
 
 .container-color {
   padding: 100px 30px 200px 30px;
-  background-color: #0984e3;
+  color: #fff;
+  background-color: #bf7fff;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -76,17 +58,20 @@ footer {
   align-items: center;
 }
 
+.woman {
+  display: block;
+  height: 200px;
+  margin: 50px auto -3px auto;
+}
+
 .container-gray {
   padding: 50px 30px;
 }
 
-.intro {
-  color: #fff;
-}
 
 .card-title {
   margin-top: 50px;
-  color: #0984e3;
+  color: #bf7fff;
   text-align: center;
 }
 
@@ -105,7 +90,7 @@ footer {
 }
 
 .card-icon {
-  color: #0984e3;
+  color: #bf7fff;
   font-size: 50px;
   text-align: center;
 }
@@ -150,14 +135,14 @@ footer {
   font-size: 16px;
 }
 .card-social-icon:hover {
-  color: #0984e3;
+  color: #bf7fff;
   text-decoration: none;
 }
 
 .profile-card {
   background-color: #fff;
   min-height: 400px;
-  width: 350px;
+  width: 500px;
   padding: 30px;
   margin: 10px;
   border: 0;
@@ -196,4 +181,11 @@ footer {
 .link-container {
   display: flex;
   justify-content: space-around;
+}
+
+.resume-button {
+  background: white;
+  color:  #bf7fff;
+  display: block;
+  margin: 50px auto 0 auto;
 }

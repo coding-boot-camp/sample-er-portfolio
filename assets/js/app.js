@@ -1,3 +1,5 @@
-new TypeIt("#element", {
-  strings: "I write code and build beautifully simple applications.",
-}).go();
+// Enable tooltips
+var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
